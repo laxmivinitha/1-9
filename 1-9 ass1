@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+int oddev(int x)
+{
+	if(x%2==0)
+	return 1;
+	else
+	return 0;
+}
+int main()
+{
+	int n,num;
+	scanf("%d",&n);
+	num=oddev(n);  
+	if(num==1)
+	printf("EVEN!");
+    else
+     printf("ODD!");    
+	return 0;
+}
